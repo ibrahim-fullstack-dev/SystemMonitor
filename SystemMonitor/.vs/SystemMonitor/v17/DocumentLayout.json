@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SystemMonitor\\SystemMonitor\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\Core.Native.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\Core.Native.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Core.Native.cpp",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\Core.Native.cpp",
+              "RelativeDocumentMoniker": "src\\Core.Native\\Core.Native.cpp",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\Core.Native.cpp",
+              "RelativeToolTip": "src\\Core.Native\\Core.Native.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-02T17:30:29.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
