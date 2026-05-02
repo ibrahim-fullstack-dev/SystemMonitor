@@ -9,9 +9,9 @@ namespace hardwares {
 		class clsCpu_Reader {
 
 		private:
+			PDH_HQUERY cpu_query; // handle for the query.
+			PDH_HCOUNTER cpu_counter; // handle for the counter.
 
-			PDH_HQUERY query; // handle for the query.
-			PDH_HCOUNTER counter; // handle for the counter.
 		public:
 			clsCpu_Reader(); 
 			~clsCpu_Reader();
