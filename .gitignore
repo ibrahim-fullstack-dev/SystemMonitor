@@ -1,0 +1,40 @@
+## --- Visual Studio Temp Files ---
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- C++ Compiled Files ---
+*.obj
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.exe
+*.dll
+*.tlog
+*.lastbuildstate
+*.idb
+*.ipch
+*.pch
+*.res
+*.sbr
+
+## --- C++ Project Specifics ---
+x64/
+x86/
+Debug/
+Release/
+Generated\ Files/
+
+## --- Database Files ---
+*.db-shm
+*.db-wal
+# *.sqlite
+# *.db
+
+## --- Logs & External Tools ---
+*.log
+.github/logs/
