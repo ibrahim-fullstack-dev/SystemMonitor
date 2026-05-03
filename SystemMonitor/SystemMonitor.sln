@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core.Native", "src\Core.Nat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core.Native.Tests", "tests\Core.Native.Tests\Core.Native.Tests.vcxproj", "{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core.Shared", "src\Core.Shared\Core.Shared.vcxproj", "{050AFFAC-08DA-2188-F452-0428992AC9AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}.Release|x64.Build.0 = Release|x64
 		{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}.Release|x86.ActiveCfg = Release|Win32
 		{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}.Release|x86.Build.0 = Release|Win32
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Debug|x64.ActiveCfg = Debug|x64
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Debug|x64.Build.0 = Debug|x64
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Debug|x86.Build.0 = Debug|Win32
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Release|x64.ActiveCfg = Release|x64
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Release|x64.Build.0 = Release|x64
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Release|x86.ActiveCfg = Release|Win32
+		{050AFFAC-08DA-2188-F452-0428992AC9AF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
