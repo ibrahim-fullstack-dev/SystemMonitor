@@ -42,8 +42,7 @@
               "RelativeToolTip": "src\\Core.Native\\src\\cpu_processor.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T05:42:22.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T05:42:22.036Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "src\\Core.Native\\src\\ram_processor.cpp",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T05:39:58.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T05:39:58.167Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "src\\Core.Native\\include\\ram_reader.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T05:39:36.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T05:39:36.541Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "src\\Core.Native\\include\\cpu_reader.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T05:39:22.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T05:39:22.288Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
               "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
               "RelativeToolTip": "tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-03T05:38:13.503Z",
               "EditorCaption": ""
