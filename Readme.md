@@ -15,3 +15,7 @@ Enterprise-level system monitoring application built with C++ and C#.
 - C# .NET 8
 - WPF (XAML)
 - SQLite / Entity Framework Core
+
+## Testing
+
+- To run the hardware monitoring tests, set the Startup Project (Run Mode) to Core.Native.tests within Visual Studio.
