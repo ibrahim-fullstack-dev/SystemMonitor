@@ -4,6 +4,7 @@
 namespace share{
 	namespace core {
 		public ref class clsRamWrapper {
+
 		private:
 			hardwares::ram::clsRam_reader* ramReader;
 		public:
@@ -11,15 +12,15 @@ namespace share{
 			~clsRamWrapper();
 			!clsRamWrapper();
 
-			int getRamUsagePercentage() ;
+			int getRamUsagePercentage();
 
-			const double getTotalRamGB() ;
-			const double getAvailableRamGB() ;
-			const double getUsedRamGB() ;
+			 double getTotalRamGB();
+			 double getAvailableRamGB();
+			 double getUsedRamGB();
 
 
-			const double getVirtualRamGB() ;
-			const double getUsedVirtualRamGB() ;
+			 double getVirtualRamGB();
+			 double getUsedVirtualRamGB();
 		};
 	}
 }

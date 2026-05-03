@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\SystemMonitor\\SystemMonitor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\ramWrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\src\\ramWrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\cpuWrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\src\\cpuWrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\cpuWrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\include\\cpuWrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\ramWrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\include\\ramWrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "cpuWrapper.cpp",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\cpuWrapper.cpp",
-              "RelativeDocumentMoniker": "src\\Core.Shared\\src\\cpuWrapper.cpp",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\cpuWrapper.cpp*",
-              "RelativeToolTip": "src\\Core.Shared\\src\\cpuWrapper.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T08:54:47.253Z",
+              "DocumentIndex": 2,
+              "Title": "ramWrapper.h",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\ramWrapper.h",
+              "RelativeDocumentMoniker": "src\\Core.Shared\\include\\ramWrapper.h",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\ramWrapper.h",
+              "RelativeToolTip": "src\\Core.Shared\\include\\ramWrapper.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-03T14:47:47.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "cpuWrapper.h",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\cpuWrapper.h",
-              "RelativeDocumentMoniker": "src\\Core.Shared\\include\\cpuWrapper.h",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\cpuWrapper.h",
-              "RelativeToolTip": "src\\Core.Shared\\include\\cpuWrapper.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T08:37:29.4Z",
+              "Title": "cpuWrapper.cpp",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\cpuWrapper.cpp",
+              "RelativeDocumentMoniker": "src\\Core.Shared\\src\\cpuWrapper.cpp",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\cpuWrapper.cpp",
+              "RelativeToolTip": "src\\Core.Shared\\src\\cpuWrapper.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-03T09:17:15.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ramWrapper.cpp",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\ramWrapper.cpp",
+              "RelativeDocumentMoniker": "src\\Core.Shared\\src\\ramWrapper.cpp",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\src\\ramWrapper.cpp",
+              "RelativeToolTip": "src\\Core.Shared\\src\\ramWrapper.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-03T09:09:17.877Z",
               "EditorCaption": ""
             }
           ]
