@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\SystemMonitor\\SystemMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\Core.Shared.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\Core.Shared.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\cpu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\include\\cpu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}|tests\\Core.Native.Tests\\Core.Native.Tests.vcxproj|D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}|tests\\Core.Native.Tests\\Core.Native.Tests.vcxproj|solutionrelative:tests\\Core.Native.Tests\\Core.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\Core.Shared.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{050AFFAC-08DA-2188-F452-0428992AC9AF}|src\\Core.Shared\\Core.Shared.vcxproj|solutionrelative:src\\Core.Shared\\Core.Shared.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Core.Shared.cpp",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\Core.Shared.cpp",
-              "RelativeDocumentMoniker": "src\\Core.Shared\\Core.Shared.cpp",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\Core.Shared.cpp",
-              "RelativeToolTip": "src\\Core.Shared\\Core.Shared.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T08:17:23.492Z",
+              "DocumentIndex": 0,
+              "Title": "cpu.h",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\cpu.h",
+              "RelativeDocumentMoniker": "src\\Core.Shared\\include\\cpu.h",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\include\\cpu.h*",
+              "RelativeToolTip": "src\\Core.Shared\\include\\cpu.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-03T08:37:29.4Z",
               "EditorCaption": ""
             },
             {
@@ -48,19 +44,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-03T08:11:23.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Core.Shared.h",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\Core.Shared.h",
-              "RelativeDocumentMoniker": "src\\Core.Shared\\Core.Shared.h",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Shared\\Core.Shared.h*",
-              "RelativeToolTip": "src\\Core.Shared\\Core.Shared.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T08:02:18.468Z",
               "EditorCaption": ""
             }
           ]
