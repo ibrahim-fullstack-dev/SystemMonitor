@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\SystemMonitor\\SystemMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\cpu_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\include\\cpu_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\ram_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\src\\ram_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\cpu_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\src\\cpu_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\ram_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\include\\ram_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +32,35 @@
               "RelativeDocumentMoniker": "src\\Core.Native\\src\\cpu_processor.cpp",
               "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\cpu_processor.cpp",
               "RelativeToolTip": "src\\Core.Native\\src\\cpu_processor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T04:24:19.428Z",
+              "WhenOpened": "2026-05-03T05:08:16.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cpu_reader.h",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\cpu_reader.h",
-              "RelativeDocumentMoniker": "src\\Core.Native\\include\\cpu_reader.h",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\cpu_reader.h",
-              "RelativeToolTip": "src\\Core.Native\\include\\cpu_reader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Title": "ram_processor.cpp",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\ram_processor.cpp",
+              "RelativeDocumentMoniker": "src\\Core.Native\\src\\ram_processor.cpp",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\ram_processor.cpp",
+              "RelativeToolTip": "src\\Core.Native\\src\\ram_processor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-03T05:08:08.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ram_reader.h",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\ram_reader.h",
+              "RelativeDocumentMoniker": "src\\Core.Native\\include\\ram_reader.h",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\ram_reader.h",
+              "RelativeToolTip": "src\\Core.Native\\include\\ram_reader.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T04:23:44.042Z",
+              "WhenOpened": "2026-05-03T04:40:58.929Z",
               "EditorCaption": ""
             }
           ]
