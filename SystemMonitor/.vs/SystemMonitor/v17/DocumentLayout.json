@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\SystemMonitor\\SystemMonitor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}|tests\\Core.Native.Tests\\Core.Native.Tests.vcxproj|D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}|tests\\Core.Native.Tests\\Core.Native.Tests.vcxproj|solutionrelative:tests\\Core.Native.Tests\\Core.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\storage_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\src\\storage_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\storage_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\include\\storage_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}|tests\\Core.Native.Tests\\Core.Native.Tests.vcxproj|D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AD2D1AB8-AC30-4C74-B04C-19FF62DCB544}|tests\\Core.Native.Tests\\Core.Native.Tests.vcxproj|solutionrelative:tests\\Core.Native.Tests\\Core.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\ram_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\include\\ram_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\cpu_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\include\\cpu_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\ram_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\src\\ram_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\cpu_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50EF7F86-03D1-47EB-80AD-B4F7E80CCB6F}|src\\Core.Native\\Core.Native.vcxproj|solutionrelative:src\\Core.Native\\src\\cpu_processor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,88 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Core.Native.Tests.cpp",
+              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
+              "RelativeDocumentMoniker": "tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
+              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp*",
+              "RelativeToolTip": "tests\\Core.Native.Tests\\Core.Native.Tests.cpp*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-03T07:23:14.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "storage_processor.cpp",
               "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\storage_processor.cpp",
               "RelativeDocumentMoniker": "src\\Core.Native\\src\\storage_processor.cpp",
               "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\storage_processor.cpp",
               "RelativeToolTip": "src\\Core.Native\\src\\storage_processor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-03T06:37:59.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "storage_reader.h",
               "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\storage_reader.h",
               "RelativeDocumentMoniker": "src\\Core.Native\\include\\storage_reader.h",
               "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\storage_reader.h",
               "RelativeToolTip": "src\\Core.Native\\include\\storage_reader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-03T06:25:21.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "cpu_processor.cpp",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\cpu_processor.cpp",
-              "RelativeDocumentMoniker": "src\\Core.Native\\src\\cpu_processor.cpp",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\cpu_processor.cpp",
-              "RelativeToolTip": "src\\Core.Native\\src\\cpu_processor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T05:42:22.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ram_processor.cpp",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\ram_processor.cpp",
-              "RelativeDocumentMoniker": "src\\Core.Native\\src\\ram_processor.cpp",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\src\\ram_processor.cpp",
-              "RelativeToolTip": "src\\Core.Native\\src\\ram_processor.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T05:39:58.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ram_reader.h",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\ram_reader.h",
-              "RelativeDocumentMoniker": "src\\Core.Native\\include\\ram_reader.h",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\ram_reader.h",
-              "RelativeToolTip": "src\\Core.Native\\include\\ram_reader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T05:39:36.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "cpu_reader.h",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\cpu_reader.h",
-              "RelativeDocumentMoniker": "src\\Core.Native\\include\\cpu_reader.h",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\src\\Core.Native\\include\\cpu_reader.h",
-              "RelativeToolTip": "src\\Core.Native\\include\\cpu_reader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T05:39:22.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Core.Native.Tests.cpp",
-              "DocumentMoniker": "D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
-              "RelativeDocumentMoniker": "tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
-              "ToolTip": "D:\\SystemMonitor\\SystemMonitor\\tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
-              "RelativeToolTip": "tests\\Core.Native.Tests\\Core.Native.Tests.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T05:38:13.503Z",
               "EditorCaption": ""
             }
           ]
