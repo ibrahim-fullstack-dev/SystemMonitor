@@ -9,7 +9,7 @@ namespace hardwares {
 		  // Open a query
 			if (PdhOpenQuery(NULL,NULL,&cpu_query) != ERROR_SUCCESS)
 			{
-
+				
 			}
 
 			// Add the counter to the query
