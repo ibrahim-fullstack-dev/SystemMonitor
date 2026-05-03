@@ -3,7 +3,7 @@
 namespace hardwares {
 	namespace ram {
 
-		class ram_reader {
+		class clsRam_reader {
 			
 		public:
 			// RAM usage percentage

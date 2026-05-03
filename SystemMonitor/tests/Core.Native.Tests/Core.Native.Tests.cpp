@@ -2,12 +2,15 @@
 #include <iostream>
 #include <Windows.h>
 #include "cpu_reader.h"
+#include "cpu_reader.h"
+
 
 using namespace std;
 
 int main()
 {
     hardwares::cpu::clsCpu_Reader cpu_reader;
+
 
     std::cout << "--- System Monitor: CPU Test Bench ---\n" << std::endl;
 

@@ -10,7 +10,7 @@ namespace hardwares {
 			return GlobalMemoryStatusEx(&memStatus) != 0;
 		}
 
-		int ram_reader::getRamUsagePercentage() const {
+		int clsRam_reader::getRamUsagePercentage() const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
@@ -19,7 +19,7 @@ namespace hardwares {
 			return 0;
 		}
 
-		double ram_reader::getTotalRamGB()const {
+		double clsRam_reader::getTotalRamGB()const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
@@ -28,7 +28,7 @@ namespace hardwares {
 			return 0.0;
 		}
 
-		double ram_reader::getAvailableRamGB()const {
+		double clsRam_reader::getAvailableRamGB()const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
@@ -38,7 +38,7 @@ namespace hardwares {
 		}
 
 
-		double ram_reader::getUsedRamGB()const {
+		double clsRam_reader::getUsedRamGB()const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
@@ -47,7 +47,7 @@ namespace hardwares {
 			return 0.0;
 		}
 
-		double ram_reader::getVirtualRamGB()const {
+		double clsRam_reader::getVirtualRamGB()const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
@@ -56,7 +56,7 @@ namespace hardwares {
 			return 0.0;
 		}
 
-		double ram_reader::getUsedVirtualRamGB()const {
+		double clsRam_reader::getUsedVirtualRamGB()const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
