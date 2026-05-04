@@ -1,10 +1,18 @@
 ## --- Visual Studio Temp Files ---
+# Visual Studio files
 .vs/
 [Bb]in/
 [Oo]bj/
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
+
+# React / Node files
+node_modules/
+dist/
+build/
+.env
 
 ## --- C++ Compiled Files ---
 *.obj
