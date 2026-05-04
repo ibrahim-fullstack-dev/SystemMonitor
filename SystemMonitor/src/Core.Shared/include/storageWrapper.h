@@ -1,14 +1,13 @@
 #pragma once
-#include "../../Core.Native/include/storage_reader.h"
-using namespace System;
-using namespace System::Collections::Generic;
+
+namespace hardwares { namespace storage { class clsStorage_reader; } }
 
 namespace share {
 	namespace core {
 
 		public ref class clsStorageWrapper  {
 		private:
-			hardwares::storage::clsStorage_reader* storageReader;
+			void* storageReader;
 
 		public:
 
@@ -16,12 +15,12 @@ namespace share {
 			~clsStorageWrapper();
 			!clsStorageWrapper();
 
-			double getTotalSpaceGB(String^ drivePath) ;
-			double getFreeSpaceGB(String^ drivePath) ;
-			double getUsedSpaceGB(String^ drivePath) ;
-			int getUsagePercentage(String^ drivePath) ;
+			double getTotalSpaceGB(System::String^ drivePath) ;
+			double getFreeSpaceGB(System::String^ drivePath) ;
+			double getUsedSpaceGB(System::String^ drivePath) ;
+			int getUsagePercentage(System::String^ drivePath) ;
 
-			List<String^>^ getDriveList();
+			System::Collections::Generic::List<System::String^>^ getDriveList();
 			
 		};
 	}

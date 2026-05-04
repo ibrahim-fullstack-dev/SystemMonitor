@@ -1,5 +1,6 @@
 #pragma once
-#include "../../Core.Native/include/cpu_reader.h"
+namespace hardwares { namespace cpu { class clsCpu_Reader; } }
+
 
 namespace share {
 	namespace core {

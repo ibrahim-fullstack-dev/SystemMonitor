@@ -1,5 +1,6 @@
 #pragma once
-#include "../../Core.Native/include/ram_reader.h"
+namespace hardwares { namespace ram { class clsRam_reader; } }
+
 
 namespace share{
 	namespace core {

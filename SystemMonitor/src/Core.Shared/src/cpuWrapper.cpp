@@ -1,5 +1,9 @@
 #include "../pch.h"
+
+#include "../../Core.Native/include/cpu_reader.h"
+
 #include "../include/cpuWrapper.h"
+
 
 namespace share {
 		namespace core {

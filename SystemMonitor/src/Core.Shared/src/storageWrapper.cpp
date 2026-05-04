@@ -1,13 +1,17 @@
+
 #include "../pch.h"
+
+#include "../../Core.Native/include/storage_reader.h"
+
 #include "../include/storageWrapper.h"
-#include <iostream>
+
 #include <msclr/marshal_cppstd.h>
 
 namespace share {
 	namespace core {
 
 		clsStorageWrapper::clsStorageWrapper(){
-			storageReader = new hardwares::storage::clsStorage_reader;
+			storageReader = new ::hardwares::storage::clsStorage_reader;
 		}
 
 		clsStorageWrapper::~clsStorageWrapper() {
@@ -22,29 +26,33 @@ namespace share {
 			}
 		}
 		
-		double clsStorageWrapper::getTotalSpaceGB(String^ drivePath) {
-			return storageReader->getTotalSpaceGB(msclr::interop::marshal_as<std::wstring>(drivePath));
+		double clsStorageWrapper::getTotalSpaceGB(System::String^ drivePath) {
+			std::wstring nativePath = msclr::interop::marshal_as<std::wstring>(drivePath);
+			return static_cast<::hardwares::storage::clsStorage_reader*>(storageReader)->getTotalSpaceGB(nativePath);
 		}
 
-		double clsStorageWrapper::getFreeSpaceGB(String^ drivePath) {
-			return storageReader->getFreeSpaceGB(msclr::interop::marshal_as<std::wstring>(drivePath));
+		double clsStorageWrapper::getFreeSpaceGB(System::String^ drivePath) {
+			std::wstring nativePath = msclr::interop::marshal_as<std::wstring>(drivePath);
+			return static_cast<::hardwares::storage::clsStorage_reader*>(storageReader)->getFreeSpaceGB(nativePath);
 		}
 
-		double clsStorageWrapper::getUsedSpaceGB(String^ drivePath) {
-			return storageReader->getUsedSpaceGB(msclr::interop::marshal_as<std::wstring>(drivePath));
+		double clsStorageWrapper::getUsedSpaceGB(System::String^ drivePath) {
+			std::wstring nativePath = msclr::interop::marshal_as<std::wstring>(drivePath);
+			return static_cast<::hardwares::storage::clsStorage_reader*>(storageReader)->getUsedSpaceGB(nativePath);
 		}
 
-		int clsStorageWrapper::getUsagePercentage(String^ drivePath) {
-			return storageReader->getUsagePercentage(msclr::interop::marshal_as<std::wstring>(drivePath));
+		int clsStorageWrapper::getUsagePercentage(System::String^ drivePath) {
+			std::wstring nativePath = msclr::interop::marshal_as<std::wstring>(drivePath);
+			return static_cast<::hardwares::storage::clsStorage_reader*>(storageReader)->getUsagePercentage(nativePath);
 		}
 
-		List<String^>^ clsStorageWrapper::getDriveList() {
-			List<String^>^ managedList = gcnew List<String^>();
-			std::vector<std::wstring> drives = storageReader->getDriveList();
+		System::Collections::Generic::List<System::String^>^ clsStorageWrapper::getDriveList() {
+			System::Collections::Generic::List<System::String^>^ managedList = gcnew System::Collections::Generic::List<System::String^>();
+			std::vector<std::wstring> drives = static_cast<::hardwares::storage::clsStorage_reader*>(storageReader)->getDriveList();
 
 			for (const std::wstring &drive: drives)
 			{
-				managedList->Add(msclr::interop::marshal_as<String^>(drive));
+				managedList->Add(msclr::interop::marshal_as<System::String^>(drive));
 			}
 			return managedList;
 		}

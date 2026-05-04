@@ -1,4 +1,7 @@
 #include "../pch.h"
+
+#include "../../Core.Native/include/ram_reader.h"
+
 #include "../include/ramWrapper.h"
 
 namespace share {
