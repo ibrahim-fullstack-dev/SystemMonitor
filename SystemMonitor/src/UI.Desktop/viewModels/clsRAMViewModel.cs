@@ -39,7 +39,7 @@ public class clsRAMViewModel: clsBaseClass, IDisposable
         }
     }
 
-    private void UpdateRAMReport()
+    public void UpdateRAMReport()
     {
         _ramReport = GetFullRAMReport();
     }

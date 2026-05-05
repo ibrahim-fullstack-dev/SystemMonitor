@@ -46,5 +46,4 @@ public class clsCPUViewModel: clsBaseClass, IDisposable
         // Clean up any resources if necessary when the ViewModel is disposed
     }
 
-
 }
