@@ -21,7 +21,7 @@ int main()
     for (short i = 0; i < 10; i++)
     {
         double cpuUsage = cpu.getCpuUsage();
-        int ramPercent = ram.getRamUsagePercentage();
+        double ramPercent = ram.getRamUsagePercentage();
         double totalRam = ram.getTotalRamGB();
         double usedRam = ram.getUsedRamGB();
         double totalVirtual = ram.getVirtualRamGB();

@@ -4,28 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using share.core;
+using UI.Desktop.Services.Interfaces;
+using UI.Desktop.Base;
+
 
 namespace UI.Desktop.Services.HardwareSevices;
 
-    public class clsRAMService : IDisposable
+    public class clsRAMService : clsBaseClass, IRAMService, IDisposable
     {
         private readonly clsRamWrapper _RAMBridge = new clsRamWrapper();
-
-        private double ExecuteSafe(Func<double> action)
-        {
-            try
-            {
-                return action();
-            }
-            catch (Exception ex)
-            {
-            // Log the error message for debugging purposes.
-            System.Diagnostics.Debug.WriteLine($"RAM Error: {ex.Message}");
-
-            // Return a default value or handle the error as needed
-            return double.NaN;
-            }
-        }
 
         public double GetTotalRamGB() => ExecuteSafe(() => _RAMBridge.getTotalRamGB());
 

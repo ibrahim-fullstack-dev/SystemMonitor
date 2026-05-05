@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UI.Desktop.Services
+namespace UI.Desktop.Services.Interfaces
 {
-   public interface IMonitorService
+   public interface ICPUService
     {
         double GetCpuUsage();
+    }
+    public interface IRAMService
+    {
         double GetTotalRamGB();
         double GetRamUsagePercentage();
         double GetUsedRamGB();

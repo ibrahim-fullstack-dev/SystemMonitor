@@ -24,7 +24,7 @@ namespace Core.Shared.Tests
 
 
                     double cpuUsage = cpu.getCPUUsage();
-                    int ramPercent = ram.getRamUsagePercentage();
+                    double ramPercent = ram.getRamUsagePercentage();
                     double totalRam = ram.getTotalRamGB();
                     double usedRam = ram.getUsedRamGB();
                     double totalVirtual = ram.getVirtualRamGB();
