@@ -7,7 +7,7 @@ namespace hardwares {
 			
 		public:
 			// RAM usage percentage
-			int getRamUsagePercentage() const;
+			double getRamUsagePercentage() const;
 
 			// RAM information in GB
 			double getTotalRamGB() const;

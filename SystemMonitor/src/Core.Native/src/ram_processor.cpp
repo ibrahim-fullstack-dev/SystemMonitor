@@ -10,11 +10,11 @@ namespace hardwares {
 			return GlobalMemoryStatusEx(&memStatus) != 0;
 		}
 
-		int clsRam_reader::getRamUsagePercentage() const {
+		double clsRam_reader::getRamUsagePercentage() const {
 			MEMORYSTATUSEX memInfo;
 			if (getMemoryStatus(memInfo))
 			{
-				return static_cast<int>(memInfo.dwMemoryLoad);
+				return static_cast<double>(memInfo.dwMemoryLoad);
 			}
 			return 0;
 		}

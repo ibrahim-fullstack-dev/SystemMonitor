@@ -20,7 +20,7 @@ namespace share {
 			}
 		}
 
-		int clsRamWrapper::getRamUsagePercentage() {
+		double clsRamWrapper::getRamUsagePercentage() {
 			return ramReader->getRamUsagePercentage();
 		}
 		double clsRamWrapper::getTotalRamGB() {

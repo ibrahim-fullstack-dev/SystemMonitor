@@ -13,7 +13,7 @@ namespace share{
 			~clsRamWrapper();
 			!clsRamWrapper();
 
-			int getRamUsagePercentage();
+			double getRamUsagePercentage();
 
 			 double getTotalRamGB();
 			 double getAvailableRamGB();

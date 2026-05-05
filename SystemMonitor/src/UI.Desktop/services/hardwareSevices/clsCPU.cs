@@ -14,13 +14,23 @@ namespace UI.Desktop.services
             {
                 try
                 {
-                    clsCpuWrapper CPU = new clsCpuWrapper();
-                    return CPU.getCPUUsage();
+                    using (clsCpuWrapper CPU = new clsCpuWrapper())
+                    {
+                        return CPU.getCPUUsage();
+
+                    }
 
                 }
                 catch (Exception ex)
                 {
-                    return 0;
+                    // Log the error message for debugging purposes
+                    System.Diagnostics.Debug.WriteLine($"CPU Error: {ex.Message}");
+
+                    // To log error internally or send it to an error tracking service.
+                    Console.WriteLine($"Hardware Access Failed: {ex.Message}");
+
+                    // Return a default value or handle the error as needed
+                    return double.NaN;
                 }
 
             }
