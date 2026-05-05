@@ -1,13 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Documents;
 
-namespace UI.Desktop.global;
-public abstract class clsBaseClass
+namespace UI.Desktop.Global;
+public abstract class clsBaseClass: INotifyPropertyChanged
 {
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
     protected double ExecuteSafe(Func<double> action)
     {
         try
@@ -39,4 +48,5 @@ public abstract class clsBaseClass
             return null;
         }
     }
+
 }

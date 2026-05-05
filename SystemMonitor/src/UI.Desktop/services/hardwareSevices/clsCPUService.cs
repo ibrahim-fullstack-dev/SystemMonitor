@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using share.core;
-using UI.Desktop.global;
+using UI.Desktop.Global;
 using UI.Desktop.Interfaces;
 
 
