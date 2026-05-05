@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Documents;
 
-namespace UI.Desktop.Base;
+namespace UI.Desktop.global;
 public abstract class clsBaseClass
 {
     protected double ExecuteSafe(Func<double> action)
