@@ -25,7 +25,7 @@ public class clsStorageService : clsBaseClass, IStorageService, IDisposable
 
     public void Dispose()
     {
-        _StorageBridge.Dispose(); // Ensure that the unmanaged resources are released when the service is disposed
+        _StorageBridge?.Dispose(); // Ensure that the unmanaged resources are released when the service is disposed
     }
 
 }

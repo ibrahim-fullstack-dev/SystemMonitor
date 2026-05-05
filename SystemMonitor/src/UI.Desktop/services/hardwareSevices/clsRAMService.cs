@@ -28,7 +28,7 @@ namespace UI.Desktop.Services.HardwareSevices;
 
         public void Dispose()
         {
-            _RAMBridge.Dispose(); // Ensure that the unmanaged resources are released when the service is disposed
+            _RAMBridge?.Dispose(); // Ensure that the unmanaged resources are released when the service is disposed
         }
 
     }
