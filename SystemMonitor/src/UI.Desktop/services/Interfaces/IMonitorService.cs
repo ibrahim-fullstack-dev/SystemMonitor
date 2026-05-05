@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UI.Desktop.Services.Interfaces
 {
-   public interface ICPUService
+    public interface ICPUService
     {
         double GetCpuUsage();
     }
@@ -18,5 +18,14 @@ namespace UI.Desktop.Services.Interfaces
         double GetAvailableRamGB();
         double GetVirtualRamGB();
         double GetUsedVirtualRamGB();
+    }
+
+    public interface IStorageService
+    {
+        List<string> GetStoragePaths();
+        double GetTotalStorageGB(string path);
+        double GetStorageUsagePercentage(string path);
+        double GetUsedStorageGB(string path);
+        double GetAvailableStorageGB(string path);
     }
 }
