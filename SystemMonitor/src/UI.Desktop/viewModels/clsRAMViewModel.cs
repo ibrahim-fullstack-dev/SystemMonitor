@@ -5,7 +5,7 @@ using UI.Desktop.Global;
 
 namespace UI.Desktop.ViewModels;
 
-public class clsRAMViewModel: clsBaseClass
+public class clsRAMViewModel: clsBaseClass, IDisposable
 {
     private readonly clsRAMService _ramService;
     private clsRamModel _ramReport;
@@ -44,5 +44,9 @@ public class clsRAMViewModel: clsBaseClass
         _ramReport = GetFullRAMReport();
     }
 
+    public void Dispose()
+    {
+        _ramService?.Dispose();
+    }
 
 }
