@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="views\controls\" />
     <Folder Include="views\pages\" />
   </ItemGroup>
 

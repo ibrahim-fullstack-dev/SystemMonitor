@@ -4,9 +4,30 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UI.Desktop"
+        xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+        xmlns:vms="clr-namespace:UI.Desktop.General"
+        xmlns:controls="clr-namespace:UI.Desktop.Views.Controls"
         mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=vms:clsMainViewModel, IsDesignTimeCreatable=True}"
         Title="System Monitor" Height="450" Width="800">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Background="#1E1E1E">
+            <Button Content="CPU Dashboard" Command="{Binding ShowCpuCommand}"/>
+            <Button Content="RAM Details" Command="{Binding ShowRamCommand}"/>
+        </StackPanel>
+
+        <StackPanel>
+            <controls:ctrlMonitorChart DataContext="{Binding CPUVM}" />
+
+            <controls:ctrlMonitorChart DataContext="{Binding RAMVM}" />
+
+            <controls:ctrlMonitorChart DataContext="{Binding StorageVM}" />
+        </StackPanel>
     </Grid>
 </Window>

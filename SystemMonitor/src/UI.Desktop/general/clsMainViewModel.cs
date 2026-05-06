@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UI.Desktop.ViewModels;
-
+﻿using UI.Desktop.ViewModels;
 namespace UI.Desktop.General;
 
 public class clsMainViewModel
 {
-    private clsCPUViewModel clsCPUViewModel { get; }
-    private clsRAMViewModel clsRAMViewModel { get; }
-    private clsStorageViewModel clsStorageViewModel { get;  }
+    public clsCPUViewModel CPUVM { get; }
+    public clsRAMViewModel RAMVM { get; }
+    public clsStorageViewModel StorageVM { get;  }
 
-    clsMainViewModel()
+    public clsMainViewModel()
     {
-        clsCPUViewModel = new clsCPUViewModel();
-        clsRAMViewModel = new clsRAMViewModel();
-        clsStorageViewModel = new clsStorageViewModel();
+        CPUVM = new clsCPUViewModel();
+        RAMVM = new clsRAMViewModel();
+        StorageVM = new clsStorageViewModel();
+
+        StartMonitoring();
     }
 
     private void StartMonitoring()
@@ -30,10 +26,10 @@ public class clsMainViewModel
         timer.Tick += (sender, e) =>
         {
             // Update CPU, RAM, and Storage data here
-
-            clsCPUViewModel.UpdateCPUData();
-            clsRAMViewModel.UpdateRAMReport();
-            clsStorageViewModel.UpdateStorageReport();
+                    
+            CPUVM.UpdateCPUData();
+            RAMVM.UpdateRAMReport();
+            StorageVM.UpdateStorageReport();
         };
         timer.Start();
     }
