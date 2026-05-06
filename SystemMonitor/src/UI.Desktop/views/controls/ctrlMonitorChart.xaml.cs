@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace UI.Desktop.Views.Controls
 {
     /// <summary>
-    /// Interaction logic for ctrlMonitoringChart.xaml
+    /// Interaction logic for ctrlMonitorChart.xaml
     /// </summary>
     public partial class ctrlMonitorChart : UserControl
     {
