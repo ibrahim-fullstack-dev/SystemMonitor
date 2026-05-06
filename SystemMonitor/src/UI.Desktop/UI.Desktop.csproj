@@ -12,4 +12,9 @@
     <ProjectReference Include="..\Core.Shared\Core.Shared.vcxproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="views\controls\" />
+    <Folder Include="views\pages\" />
+  </ItemGroup>
+
 </Project>
