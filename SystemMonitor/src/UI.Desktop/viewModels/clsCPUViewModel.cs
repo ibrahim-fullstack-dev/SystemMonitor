@@ -5,17 +5,16 @@ using UI.Desktop.Services.HardwareSevices;
 
 namespace UI.Desktop.ViewModels;
 
-public class clsCPUViewModel: clsBaseClass, IDisposable
+public class clsCPUViewModel: IDisposable
 {
-    private clsCPUService _cpuService;
+    private readonly clsCPUService _cpuService;
     private clsCpuModel _cpuModel;
     public clsCpuModel CPUUsagePercentage
     {
         get => _cpuModel;
         set
         {
-            _cpuModel = value; OnPropertyChanged();
-            // NotifyPropertyChanged if implementing INotifyPropertyChanged
+            _cpuModel = value;
         }
     }
 
@@ -23,7 +22,7 @@ public class clsCPUViewModel: clsBaseClass, IDisposable
     {
         return new clsCpuModel
         {
-            UsagePercentage = _cpuService.GetCpuUsage(),
+            CpuUsagePercentage = _cpuService.GetCpuUsage(),
         };
     }
 
@@ -36,6 +35,7 @@ public class clsCPUViewModel: clsBaseClass, IDisposable
 
     public void UpdateCPUData()
     {
+        
         _cpuModel = GetFullReport();
         // Implement logic to update CPU usage and temperature data here
     }

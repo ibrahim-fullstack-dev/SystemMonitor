@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UI.Desktop"
         xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
-        xmlns:vms="clr-namespace:UI.Desktop.General"
+        xmlns:vms="clr-namespace:UI.Desktop.Global"
         xmlns:controls="clr-namespace:UI.Desktop.Views.Controls"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance Type=vms:clsMainViewModel, IsDesignTimeCreatable=True}"
@@ -18,16 +18,17 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Background="#1E1E1E">
-            <Button Content="CPU Dashboard" Command="{Binding ShowCpuCommand}"/>
-            <Button Content="RAM Details" Command="{Binding ShowRamCommand}"/>
+            <TextBlock Text="Ibrahim Monitor" Foreground="White" Margin="0,0,0,20" FontWeight="Bold"/>
+            <Button Content="CPU Dashboard" Command="{Binding ShowCpuCommand}" Margin="0,5"/>
+            <Button Content="RAM Details" Command="{Binding ShowRamCommand}" Margin="0,5"/>
         </StackPanel>
 
-        <StackPanel>
-            <controls:ctrlMonitorChart DataContext="{Binding CPUVM}" />
-
-            <controls:ctrlMonitorChart DataContext="{Binding RAMVM}" />
-
-            <controls:ctrlMonitorChart DataContext="{Binding StorageVM}" />
-        </StackPanel>
+        <ScrollViewer Grid.Column="1" Background="#121212">
+            <StackPanel Margin="10">
+                <controls:ctrlMonitorChart DataContext="{Binding CPUVM}" Height="250" Margin="0,0,0,15"/>
+                <controls:ctrlMonitorChart DataContext="{Binding RAMVM}" Height="250" Margin="0,0,0,15"/>
+                <controls:ctrlMonitorChart DataContext="{Binding StorageVM}" Height="250"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>

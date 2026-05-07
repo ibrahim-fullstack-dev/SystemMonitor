@@ -4,7 +4,7 @@ namespace UI.Desktop.Models
 {
     public class clsCpuModel
     {
-        public double UsagePercentage { get; set; }
+        public double CpuUsagePercentage { get; set; }
 
     }
 }

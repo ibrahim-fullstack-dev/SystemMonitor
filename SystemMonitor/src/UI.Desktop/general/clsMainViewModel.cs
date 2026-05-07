@@ -1,12 +1,11 @@
 ﻿using UI.Desktop.ViewModels;
-namespace UI.Desktop.General;
+namespace UI.Desktop.Global;
 
 public class clsMainViewModel
 {
     public clsCPUViewModel CPUVM { get; }
     public clsRAMViewModel RAMVM { get; }
     public clsStorageViewModel StorageVM { get;  }
-
     public clsMainViewModel()
     {
         CPUVM = new clsCPUViewModel();
@@ -15,7 +14,6 @@ public class clsMainViewModel
 
         StartMonitoring();
     }
-
     private void StartMonitoring()
     {
         // Implement logic to start monitoring CPU, RAM, and Storage data

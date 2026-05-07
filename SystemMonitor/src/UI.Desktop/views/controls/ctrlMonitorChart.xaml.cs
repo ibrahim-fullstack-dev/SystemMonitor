@@ -18,6 +18,7 @@ namespace UI.Desktop.Views.Controls
     /// <summary>
     /// Interaction logic for ctrlMonitorChart.xaml
     /// </summary>
+    /// 
     public partial class ctrlMonitorChart : UserControl
     {
         public ctrlMonitorChart()

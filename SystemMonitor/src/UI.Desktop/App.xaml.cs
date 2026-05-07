@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
-using UI.Desktop.General;
+using UI.Desktop.Global;
 
 namespace UI.Desktop
 {
@@ -14,8 +14,8 @@ namespace UI.Desktop
 
             base.OnStartup(e);
 
-            var mainViewModel = new clsMainViewModel();
-            var mainWindow = new MainWindow();
+            clsMainViewModel mainViewModel = new clsMainViewModel();
+            MainWindow mainWindow = new MainWindow();
             mainWindow.DataContext = mainViewModel;
 
             mainWindow.Show();
