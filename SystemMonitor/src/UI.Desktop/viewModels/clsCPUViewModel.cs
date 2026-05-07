@@ -1,11 +1,16 @@
 ﻿using System;
+using LiveChartsCore.SkiaSharpView;
+using LiveChartsCore.SkiaSharpView.Painting;
+using SkiaSharp;
 using UI.Desktop.Global;
 using UI.Desktop.Models;
 using UI.Desktop.Services.HardwareSevices;
+using LiveChartsCore;
+
 
 namespace UI.Desktop.ViewModels;
 
-public class clsCPUViewModel: IDisposable
+public class clsCPUViewModel: clsGeneralViewModel_Chart, IDisposable
 {
     private readonly clsCPUService _cpuService;
     private clsCpuModel _cpuModel;
@@ -27,6 +32,7 @@ public class clsCPUViewModel: IDisposable
     }
 
     public clsCPUViewModel()
+        : base("CPU Usage", SKColors.Azure, SKColors.Blue)
     {
         _cpuService = new clsCPUService();
         UpdateCPUData();
@@ -35,8 +41,9 @@ public class clsCPUViewModel: IDisposable
 
     public void UpdateCPUData()
     {
-        
         _cpuModel = GetFullReport();
+        base.Update(_cpuModel.CpuUsagePercentage);
+
         // Implement logic to update CPU usage and temperature data here
     }
 

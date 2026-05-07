@@ -26,8 +26,6 @@
         <ScrollViewer Grid.Column="1" Background="#121212">
             <StackPanel Margin="10">
                 <controls:ctrlMonitorChart DataContext="{Binding CPUVM}" Height="250" Margin="0,0,0,15"/>
-                <controls:ctrlMonitorChart DataContext="{Binding RAMVM}" Height="250" Margin="0,0,0,15"/>
-                <controls:ctrlMonitorChart DataContext="{Binding StorageVM}" Height="250"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

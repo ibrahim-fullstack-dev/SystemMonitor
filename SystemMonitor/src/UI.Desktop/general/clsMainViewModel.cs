@@ -11,7 +11,7 @@ public class clsMainViewModel
         CPUVM = new clsCPUViewModel();
         RAMVM = new clsRAMViewModel();
         StorageVM = new clsStorageViewModel();
-
+        
         StartMonitoring();
     }
     private void StartMonitoring()
