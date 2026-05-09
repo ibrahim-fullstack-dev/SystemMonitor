@@ -3,7 +3,7 @@
 namespace Interfaces {
 	class IThermalProvider {
 	public:
-		virtual ~IThermalProvider() = default; // Virtual destructor for proper cleanup of derived classes (cleanup resources from vTable).
+		virtual ~IThermalProvider() = default; // Virtual destructor for proper cleanup of derived classes .
 		virtual double GetTemperature() = 0;
 	};
 }
