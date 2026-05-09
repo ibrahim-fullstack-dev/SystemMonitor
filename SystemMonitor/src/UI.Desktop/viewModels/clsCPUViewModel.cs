@@ -32,7 +32,7 @@ public class clsCPUViewModel: clsGeneralViewModel_Chart, IDisposable
     }
 
     public clsCPUViewModel()
-        : base("CPU Usage", SKColors.Azure, SKColors.Blue)
+        : base("CPU Usage", SKColors.GreenYellow, SKColors.Green)
     {
         _cpuService = new clsCPUService();
         UpdateCPUData();

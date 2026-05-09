@@ -6,7 +6,7 @@
     xmlns:vms="clr-namespace:UI.Desktop.ViewModels;assembly=UI.Desktop">
 
     <Grid Margin="20">
-        <lvc:CartesianChart Series="{Binding Series}" YAxes="{Binding YAxes}">
+        <lvc:CartesianChart Series="{Binding Series}" YAxes="{Binding YAxes}" XAxes="{Binding XAxes}" Background="#1E1E1E">
         </lvc:CartesianChart>
     </Grid>
 
