@@ -30,13 +30,13 @@
     <ClInclude Include="include\storage_reader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Interfaces\IUsageProvider.h">
+    <ClInclude Include="Interfaces\Hardwares\IUsageProvider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Interfaces\IThermalProvider.h">
+    <ClInclude Include="Interfaces\Hardwares\IThermalProvider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Interfaces\ICapacityProvider.h">
+    <ClInclude Include="Interfaces\Hardwares\ICapacityProvider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Interfaces\Global\IHardwareComponent.h">
