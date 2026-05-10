@@ -6,7 +6,6 @@ namespace Interfaces {
 		virtual ~ICapacityProvider() = default; // Virtual destructor for proper cleanup of derived classes.
 		virtual double GetCapacity() = 0;
 		virtual double GetUsedCapacity() = 0;
-		virtual const wchar_t* GetLabel() = 0;
 	};
 
 }

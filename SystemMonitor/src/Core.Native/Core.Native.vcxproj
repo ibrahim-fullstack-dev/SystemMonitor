@@ -139,6 +139,7 @@
     <ClInclude Include="include\cpu_reader.h" />
     <ClInclude Include="include\ram_reader.h" />
     <ClInclude Include="include\storage_reader.h" />
+    <ClInclude Include="Interfaces\Global\IHardwareComponent.h" />
     <ClInclude Include="Interfaces\ICapacityProvider.h" />
     <ClInclude Include="Interfaces\IThermalProvider.h" />
     <ClInclude Include="Interfaces\IUsageProvider.h" />
