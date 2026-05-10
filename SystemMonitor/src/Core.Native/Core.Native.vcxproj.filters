@@ -42,6 +42,9 @@
     <ClInclude Include="Interfaces\Global\IHardwareComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Interfaces\Global\IStatusProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core.Native.cpp">
