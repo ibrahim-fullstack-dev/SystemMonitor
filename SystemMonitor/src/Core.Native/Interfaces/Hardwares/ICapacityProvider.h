@@ -1,10 +1,10 @@
 #pragma once // Ensure the header is included only once during compilation
 #include "../Global/IHardwareComponent.h" 
 
-namespace Interfaces {
+namespace Interface {
 
 	// use virtual inheritance to allow for multiple inheritance from IHardwareComponent without ambiguity
-	class ICapacityProvider : virtual public interfaces::IHardwareComponent {
+	class ICapacityProvider : virtual public interface::global::ILabelCategoryProvider {
 	public:
 		virtual ~ICapacityProvider() = default; // Virtual destructor for proper cleanup of derived classes.
 		virtual double GetCapacity() const = 0;

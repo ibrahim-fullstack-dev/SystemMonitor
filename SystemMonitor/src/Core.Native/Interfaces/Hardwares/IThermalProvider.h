@@ -2,10 +2,10 @@
 #include "../Global/IHardwareComponent.h" 
 
 
-namespace Interfaces {
+namespace Interface {
 
 	// use virtual inheritance to allow for multiple inheritance from IHardwareComponent without ambiguity
-	class IThermalProvider : virtual public interfaces::IHardwareComponent {
+	class IThermalProvider : virtual public interface::global::ILabelCategoryProvider {
 	public:
 		virtual ~IThermalProvider() = default; // Virtual destructor for proper cleanup of derived classes .
 		virtual double GetTemperature() const = 0;
