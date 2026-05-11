@@ -30,6 +30,24 @@
     <ClInclude Include="include\storage_reader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SystemComponents\Hardwares\Processor\clsCPUReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemComponents\Hardwares\Volatile\clsRAMReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemComponents\Hardwares\Storage\clsStorageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemComponents\Hardwares\Processor\clsGPUReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemComponents\Hardwares\Network\clsNetworkReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemComponents\Hardwares\Volatile\clsVirtualRAMReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Monitor.DAL.cpp">
