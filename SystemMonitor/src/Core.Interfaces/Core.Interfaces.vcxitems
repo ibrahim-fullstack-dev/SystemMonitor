@@ -14,4 +14,11 @@
   <ItemGroup>
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\ICapacityProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IThermalProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IUsageProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IHardwareComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IStatusProvider.h" />
+  </ItemGroup>
 </Project>

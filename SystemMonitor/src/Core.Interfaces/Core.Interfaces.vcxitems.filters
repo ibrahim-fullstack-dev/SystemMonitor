@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{c6c433ff-d892-4e93-a96d-82f69e181d18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IHardwareComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IStatusProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\ICapacityProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IThermalProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IUsageProvider.h" />
+  </ItemGroup>
+</Project>
