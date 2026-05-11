@@ -21,31 +21,22 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\cpu_reader.h">
+    <ClInclude Include="include\hardwares\network\Network.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\ram_reader.h">
+    <ClInclude Include="include\hardwares\processor\CPU.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\storage_reader.h">
+    <ClInclude Include="include\hardwares\processor\GPU.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SystemComponents\Hardwares\Processor\clsCPUReader.h">
+    <ClInclude Include="include\hardwares\storage\Storage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SystemComponents\Hardwares\Volatile\clsRAMReader.h">
+    <ClInclude Include="include\hardwares\volatile\RAM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SystemComponents\Hardwares\Storage\clsStorageReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemComponents\Hardwares\Processor\clsGPUReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemComponents\Hardwares\Network\clsNetworkReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemComponents\Hardwares\Volatile\clsVirtualRAMReader.h">
+    <ClInclude Include="include\hardwares\volatile\VirtualRAM.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,13 +47,22 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\cpu_processor.cpp">
+    <ClCompile Include="src\hardwares\network\Network.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ram_processor.cpp">
+    <ClCompile Include="src\hardwares\processor\CPU.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\storage_processor.cpp">
+    <ClCompile Include="src\hardwares\processor\GPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hardwares\storage\Storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hardwares\volatile\RAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hardwares\volatile\VirtualRAM.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

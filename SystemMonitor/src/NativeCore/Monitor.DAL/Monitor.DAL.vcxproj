@@ -109,7 +109,7 @@
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>../../../pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -126,7 +126,7 @@
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>../pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>../../../pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -135,17 +135,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="SystemComponents\Hardwares\Volatile\clsVirtualRAMReader.h" />
-    <ClInclude Include="SystemComponents\Hardwares\Network\clsNetworkReader.h" />
-    <ClInclude Include="SystemComponents\Hardwares\Processor\clsGPUReader.h" />
-    <ClInclude Include="SystemComponents\Hardwares\Storage\clsStorageReader.h" />
-    <ClInclude Include="SystemComponents\Hardwares\Volatile\clsRAMReader.h" />
-    <ClInclude Include="SystemComponents\Hardwares\Processor\clsCPUReader.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="include\cpu_reader.h" />
-    <ClInclude Include="include\ram_reader.h" />
-    <ClInclude Include="include\storage_reader.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="include\hardwares\network\Network.h" />
+    <ClInclude Include="include\hardwares\processor\CPU.h" />
+    <ClInclude Include="include\hardwares\processor\GPU.h" />
+    <ClInclude Include="include\hardwares\storage\Storage.h" />
+    <ClInclude Include="include\hardwares\volatile\RAM.h" />
+    <ClInclude Include="include\hardwares\volatile\VirtualRAM.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Monitor.DAL.cpp">
@@ -160,9 +157,12 @@
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="src\cpu_processor.cpp" />
-    <ClCompile Include="src\ram_processor.cpp" />
-    <ClCompile Include="src\storage_processor.cpp" />
+    <ClCompile Include="src\hardwares\network\Network.cpp" />
+    <ClCompile Include="src\hardwares\processor\CPU.cpp" />
+    <ClCompile Include="src\hardwares\processor\GPU.cpp" />
+    <ClCompile Include="src\hardwares\storage\Storage.cpp" />
+    <ClCompile Include="src\hardwares\volatile\RAM.cpp" />
+    <ClCompile Include="src\hardwares\volatile\VirtualRAM.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
