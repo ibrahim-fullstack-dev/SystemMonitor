@@ -15,5 +15,9 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IRangeProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enums\UnitType.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IUnitProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\ISchedulingProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enums\ErrorType.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enums\BatteryState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IBatteryProvider.h" />
   </ItemGroup>
 </Project>
