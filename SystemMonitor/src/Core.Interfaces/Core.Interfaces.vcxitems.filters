@@ -8,8 +8,9 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\ISystemInfoProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IStatusProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\ICapacityProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IThermalProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IUsageProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\ICapacityProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IThermalProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IUsageProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enums\StatusLevel.h" />
   </ItemGroup>
 </Project>

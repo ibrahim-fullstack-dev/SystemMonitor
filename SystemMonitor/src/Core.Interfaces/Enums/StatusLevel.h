@@ -6,7 +6,7 @@ namespace System {
 
 		namespace Enums
 		{
-			enum class enStatus
+			enum class enStatusLevel
 			{
 				Unknown = 0,
 				Healthy = 1,

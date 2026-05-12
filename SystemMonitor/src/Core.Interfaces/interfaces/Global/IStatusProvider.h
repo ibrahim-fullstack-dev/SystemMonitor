@@ -1,4 +1,5 @@
 #pragma once
+#include "../../Enums/StatusLevel.h"
 
 namespace System {
 
@@ -9,11 +10,12 @@ namespace System {
 			public:
 
 
+
 				// Virtual destructor for proper cleanup of derived classes.
 				virtual ~IStatusProvider() = default;
 
-				virtual const wchar_t* GetLabel() const = 0;
-				virtual const wchar_t* GetCategory() const = 0;
+				virtual Enums::enStatusLevel GetStatus() const = 0;
+				virtual const wchar_t* GetStatusMessage() const = 0;
 			};
 		}
 
