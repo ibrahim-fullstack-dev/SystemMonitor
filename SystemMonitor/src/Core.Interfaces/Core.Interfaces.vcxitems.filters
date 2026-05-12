@@ -6,18 +6,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\ISystemInfoProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IStatusProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\ICapacityProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IThermalProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IUsageProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IComponentMetadateProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\ProcessedData\IStatusProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\RawData\ICapacityProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\ProcessedData\IThermalProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\RawData\IUsageProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enums\StatusLevel.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IRangeProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\RawData\IRangeProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enums\UnitType.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IUnitProvider.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\ISchedulingProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\ProcessedData\IUnitProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\ProcessedData\ISchedulingProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enums\ErrorType.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enums\BatteryState.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IBatteryProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\ProcessedData\IBatteryProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\RawData\ITimeEstimateProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enums\ThermalState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IDescriptionProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\ErrorProvider.h" />
   </ItemGroup>
 </Project>

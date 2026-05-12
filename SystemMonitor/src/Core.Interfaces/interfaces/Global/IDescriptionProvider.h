@@ -1,18 +1,20 @@
 #pragma once
 namespace System {
+
 	namespace Interface {
+
 		namespace Global
 		{
-			class IDescriptionProvider {
+			class IDescriptionMessageProvider {
 
 			public:
-				virtual ~IDescriptionProvider() = default;
+				virtual ~IDescriptionMessageProvider() = default;
 
-				virtual const wchar_t* GetStatusMessage() const = 0;
+				virtual const wchar_t* GetMessage() const = 0;
 
 			};
 
-			class IAdvancedDescriptionProvider {
+			class IAdvancedDescriptionProvider : public IDescriptionMessageProvider {
 
 			public:
 				virtual ~IAdvancedDescriptionProvider() = default;

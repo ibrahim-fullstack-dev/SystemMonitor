@@ -5,6 +5,7 @@ namespace System {
 
     namespace Interface {
 
+        namespace ProcessedData {
 
             class IUnitProvider {
             public:
@@ -12,8 +13,16 @@ namespace System {
 
                 virtual Enums::enUnitType GetUnitType() = 0;
 
+            };
+
+            class IUnitAdvanceProvider: public IUnitProvider {
+            public:
+                virtual ~IUnitAdvanceProvider() = default;
+
                 virtual const char* GetUnitSymbol() = 0;
             };
+
+        }
         
     }
 }
