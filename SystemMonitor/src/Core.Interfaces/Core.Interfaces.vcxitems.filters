@@ -12,5 +12,8 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IThermalProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IUsageProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Enums\StatusLevel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IRangeProvider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enums\UnitType.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Providers\IUnitProvider.h" />
   </ItemGroup>
 </Project>

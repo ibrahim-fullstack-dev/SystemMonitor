@@ -9,8 +9,6 @@ namespace System {
 			class IStatusProvider {
 			public:
 
-
-
 				// Virtual destructor for proper cleanup of derived classes.
 				virtual ~IStatusProvider() = default;
 
