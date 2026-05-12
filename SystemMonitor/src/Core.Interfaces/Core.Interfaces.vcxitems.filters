@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IHardwareComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\ISystemInfoProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Global\IStatusProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\ICapacityProvider.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)interfaces\Hardwares\IThermalProvider.h" />
